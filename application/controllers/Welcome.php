@@ -27,6 +27,8 @@ class Welcome extends frontend_Controller {
 			show_error($this->migration->error_string());
 		}
 
+		var_dump($this->session->all_userdata());
+
 		$this->load->view('welcome_message');
 	}
 }
