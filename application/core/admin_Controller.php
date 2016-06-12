@@ -1,6 +1,6 @@
 <?php
 
-    class admin_Controller extends CI_Controller{
+    class admin_Controller extends MY_Controller{
         public function __construct(){
             parent::__construct();
         }

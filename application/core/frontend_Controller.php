@@ -1,6 +1,6 @@
 <?php
 
-    class frontend_Controller extends CI_Controller{
+    class frontend_Controller extends MY_Controller{
         public function __construct(){
             parent::__construct();
         }
